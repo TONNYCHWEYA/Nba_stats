@@ -8,10 +8,11 @@
   <link rel="stylesheet" href="./assets/index.css">
 </head>
 <body>
-  <h1>NBA_STATS</h1>
+  <h1>NBA FAN PAGE STATS</h1>
+  <p></p>
   <form >
     <input type="text" placeholder="playersName" id="players">
-    <input type="submit" id="submit">
+    <input type="submit" id="submit" value="search">
   </form>
   <div class="container" id="statsholder"> 
     <h2>List of players that have the same name</h2>
@@ -19,13 +20,24 @@
 
     </ul>
   </div>
+  <h3>Player information</h3>
   <div id="facts">
-    <p >Name:<span id="first_name"></span></p>
-    <p >last Name:<span id="last_name"></span></p>
-    <p >id:<span id="height_feet"></span></p>
-    <p >City:<span id="height_inches"></span></p>
-    <p >Division:<span id="Position"></span></p>
-    <p >Team name:<span id="teamName"></span></p>
+    <p >Name: <span id="first_name"></span></p>
+    <p >last Name: <span id="last_name"></span></p>
+    <p >id:       <span id="height_feet"></span></p>
+    <p >City:  <span id="height_inches"></span></p>
+    <p >Division:  <span id="Position"></span></p>
+    <p >Team name: <span id="teamName"></span></p>
+  </div>
+  <div>
+    <h3>Players Review</h3>
+    <p id="review"></p>
+  </div>
+  <div>
+    <form id="form">
+       <input type="text" id="editReview"><br>
+       <input type="submit" id="submitEdit" value="REVIEW">
+    </form>
   </div>
 
   

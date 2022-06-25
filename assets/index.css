@@ -1,8 +1,36 @@
+
+
 body{
-  background-color: rgb(224, 224, 44);
+  background-color: rgb(56, 56, 11);
+  margin-left: 30px;
 }
 
 #facts{
   background-color: aliceblue;
   width: 40%;
+}
+#editReview{
+  height: 100px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+#submitEdit{
+  border-radius: 5px;
+  background-color: green;
+}
+#facts{
+  border-radius: 10px;
+ 
+
+}
+span{
+  box-shadow: 2px 2px 5px black;
+  
+}
+#review{
+  box-shadow: 2px 2px 5px olivedrab;
+  width: 30%;
+}
+#list{
+  width: 50%;
 }
