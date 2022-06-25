@@ -39,7 +39,7 @@ As a user of the application,you will be able to :
  ****
  [Go Back to the top](# Nba_stats)
 ### Live Link
-- Click this link to view the live application https://tonnychweya.github.io/Weekone-project/
+- Click this link to view the live application tonnychweya.github.io/nba_stats/
 ### Technology  Used
 * HTML - which was used to develope the structure off the pages.
 * CSS - which was used to style the User Interface.
